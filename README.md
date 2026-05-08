@@ -84,8 +84,6 @@ This scatter plot illustrates the relationship between sales and profit, helping
 
 ---
 
-## Repository Structure
-
 visual-data-analytics-project/
 │
 ├── README.md
@@ -97,7 +95,6 @@ visual-data-analytics-project/
 │   └── profit-vs-sales.png
 └── report.pdf
 
----
 
 ## Conclusion
 
