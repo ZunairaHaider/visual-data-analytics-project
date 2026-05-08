@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project demonstrates practical applications of data visualization techniques using both scientific and business datasets. The goal is to explore how different visualization methods can be applied depending on the type of data to extract meaningful insights.
+This project demonstrates the application of data visualization techniques to both scientific and business datasets. The objective is to explore how different visualization methods can be applied depending on the type of data to extract meaningful insights.
 
-The work combines **3D scientific visualization using ParaView** with **interactive data analysis using Tableau**.
+The project combines **3D scientific visualization using ParaView** with **interactive data analysis using Tableau**.
 
 ---
 
@@ -24,14 +24,16 @@ Different types of datasets were visualized using appropriate techniques:
 A 3D scalar dataset was visualized using direct volume rendering. Transfer functions were applied to highlight internal anatomical structures by mapping intensity values to color and opacity.
 
 ![ParaView Head](images/paraview-head.png)
+*Figure: Volume rendering of the VisHuman dataset showing internal structures.*
 
 ---
 
 ### Vector Field Visualization (Flow Analysis)
 
-A 3D vector field dataset was visualized using streamlines and color mapping to represent velocity magnitude. This helps analyze flow behavior and identify high and low velocity regions.
+A 3D vector field dataset was visualized using streamlines and color mapping to represent velocity magnitude. High-velocity regions are shown in warmer colors, while low-velocity regions appear cooler.
 
 ![Vector Field](images/vector-field.png)
+*Figure: Vector field visualization illustrating flow behavior and velocity magnitude.*
 
 ---
 
@@ -54,6 +56,7 @@ An exploratory data analysis was performed on the Superstore dataset using an in
 The dashboard integrates multiple visualizations to provide insights into sales and profit performance across different states and over time.
 
 ![Tableau Dashboard](images/tableau-dashboard.png)
+*Figure: Interactive Tableau dashboard combining multiple visualizations.*
 
 ---
 
@@ -64,6 +67,7 @@ The dashboard integrates multiple visualizations to provide insights into sales 
 This map shows the geographic distribution of total sales across U.S. states, highlighting high-performing regions.
 
 ![Sales Map](images/sales-map.png)
+*Figure: Geographic distribution of sales across U.S. states.*
 
 ---
 
@@ -72,6 +76,7 @@ This map shows the geographic distribution of total sales across U.S. states, hi
 This scatter plot illustrates the relationship between sales and profit, helping identify trends, inefficiencies, and outliers.
 
 ![Profit vs Sales](images/profit-vs-sales.png)
+*Figure: Relationship between sales and profit across states.*
 
 ---
 
@@ -84,17 +89,30 @@ This scatter plot illustrates the relationship between sales and profit, helping
 
 ---
 
+## Full Report
+
+A detailed report of the project, including methodology, visualizations, and analysis, is available here:
+
+[📄 View Full Report](report.pdf)
+
+---
+
+## Repository Structure
+
+```
 visual-data-analytics-project/
 │
 ├── README.md
+├── report.pdf
 ├── images/
 │   ├── paraview-head.png
 │   ├── vector-field.png
 │   ├── tableau-dashboard.png
 │   ├── sales-map.png
 │   └── profit-vs-sales.png
-└── report.pdf
+```
 
+---
 
 ## Conclusion
 
@@ -106,5 +124,3 @@ This project demonstrates how different visualization techniques can be applied 
 
 Zunaira Haider
 M.Sc. Mathematics in Science and Engineering
-
-
